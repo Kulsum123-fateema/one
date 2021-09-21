@@ -1,0 +1,131 @@
+body{
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        background-color: black;
+        justify-content: center;
+        background;
+      
+      }
+      span{
+        
+        border-radius: 100px;
+        padding-left: 14px;
+        animation: none;
+      }
+      .btn1{
+        
+        position: relative;
+        text-align: center;
+        width: 60px;
+        height: 40px;
+        color: #000;
+        /* background:blueviolet; */
+        background-color: #B4E1Fa;
+        padding: 0px;
+        font-size: 15px;
+        /* background-color:transparent; */
+        
+        
+        text-transform: uppercase;
+        letter-spacing:1px;
+        cursor: pointer;
+        border-radius: 100px;
+        transition: 1s;
+        
+        
+        border: solid 0.2px #B4E1Fa;
+        
+        /* color: #B4E1Fa; */
+      
+      text-shadow: 0px  0px 50px;
+      }
+      
+      
+      
+      .btn1:hover{
+        color: #000;
+        background: none;
+        animation: none;
+      
+        
+        box-shadow: 0 5px 130px 0  #B4E1Fa inset, 0 5px 80px 0 #B4E1Fa,
+                     0 5px 50px 0 #B4E1Fa  inset, 1px 1px 1px 1px #B4E1Fa;
+                    
+      
+      }
+      
+      .btn1:visited{
+        color: #000;
+        background: none;
+        animation: none;
+      
+        
+        box-shadow: 0 5px 130px 0  #B4E1Fa inset, 0 5px 80px 0 #B4E1Fa,
+                     0 5px 50px 0 #B4E1Fa  inset, 1px 1px 1px 1px #B4E1Fa;
+      }
+      
+       
+      
+      .btn1{
+        animation: btn1 3s linear infinite;
+      }
+      
+        
+      
+      
+      @keyframes btn1 {
+        0% {
+            opacity: 0.3;
+            
+             }
+          
+             20%{
+              opacity: 0.5;
+              
+          
+          
+            
+        }
+        40%{
+          opacity: 0.9;
+          
+      }
+      60%{
+        opacity: 1;
+        
+      }
+      80%{
+        opacity: 0.5;
+        
+      }
+      
+        100%{
+            opacity: 0.3;
+            
+        }
+      } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
